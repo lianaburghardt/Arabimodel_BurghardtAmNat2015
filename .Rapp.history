@@ -1,0 +1,32 @@
+setwd("/Users/lianaburghardt/GitHub/Arabimodel_BurghardtAmNat2015/source/")
+source("./Arabi_Base_final.r")
+setwd("/Users/lianaburghardt/GitHub/Arabimodel_BurghardtAmNat2015/")
+source("./source/Arabi_Base_final.r")
+env<-read.csv(file="./environmental data/environmental_data_Valencia_60yrs.csv",header=TRUE)
+rc <- iteratePop(Tmax=(24*365*1),#
+                                 time.step=1,#
+                                 temp=env[,"temperature"],#
+                                 moisture=env[,"moisture"],#
+                                 day_length=env[,"day_length"],#
+                                 day_hours=env[,"day_hours"],#
+                                 max.cohort.store=10000                   #
+                                )
+source("./source/Arabi_Base_final.r")
+source("./source/Arabi_Base_final.r")
+rc <- iteratePop(Tmax=(24*365*1),#
+                                 time.step=1,#
+                                 temp=env[,"temperature"],#
+                                 moisture=env[,"moisture"],#
+                                 day_length=env[,"day_length"],#
+                                 day_hours=env[,"day_hours"],#
+                                 max.cohort.store=10000                   #
+                                )
+source("./source/Arabi_Base_final.r")
+rc <- iteratePop(Tmax=(24*365*1),#
+                                 time.step=1,#
+                                 temp=env[,"temperature"],#
+                                 moisture=env[,"moisture"],#
+                                 day_length=env[,"day_length"],#
+                                 day_hours=env[,"day_hours"],#
+                                 max.cohort.store=10000                   #
+                                )

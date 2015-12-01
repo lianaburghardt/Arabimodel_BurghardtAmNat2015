@@ -521,7 +521,6 @@ iteratePop <- function(Tmax,
                 PTU <- tmpF$PTU
                 WC <- tmpF$WC
                 PTU.growth[which(PTU>0)]<-PTU.growth[which(PTU>0)]+tmpF$PTU.growth
-                size <- grow(size)
             }
             
             ##assess  flowering
